@@ -1,0 +1,9 @@
+interface:
+  display_name: "Exam Paper Builder"
+  short_description: "로컬 시험 PDF를 분할·분류하고 모의고사로 조판"
+  brand_color: "#176BFF"
+  default_prompt: "Use $exam-paper-builder to analyze my local question and solution PDFs, ask me about source labels, and build a verified B4 mock exam."
+
+policy:
+  allow_implicit_invocation: true
+

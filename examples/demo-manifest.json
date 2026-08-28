@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "build_id": "synthetic-demo",
+  "title": "Synthetic Mock Exam",
+  "subject": "demo",
+  "font_path": "C:\\Windows\\Fonts\\malgun.ttf",
+  "source_label": {
+    "mode": "none"
+  },
+  "paper": {
+    "size": "A4",
+    "orientation": "portrait",
+    "columns": 2,
+    "flow_mode": "continuous-strip",
+    "margins_mm": {
+      "top": 12,
+      "right": 12,
+      "bottom": 12,
+      "left": 12
+    },
+    "gutter_mm": 8,
+    "header_mm": 12,
+    "footer_mm": 7,
+    "asset_gap_mm": 3,
+    "min_effective_dpi": 120,
+    "min_scale_fraction": 0.7,
+    "qa_dpi": 100
+  },
+  "answer": {
+    "mode": "key-and-solutions"
+  },
+  "stimuli": [
+    {
+      "id": "DEMO_BUNDLE_S01",
+      "assets": [
+        {
+          "path": "demo-assets/stimulus.png",
+          "break_policy": "flow",
+          "safe_breaks": [
+            0.31,
+            0.58,
+            0.82
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "DEMO_Q017",
+      "bundle_id": "DEMO_BUNDLE",
+      "original_number": 17,
+      "stimulus_ids": [
+        "DEMO_BUNDLE_S01"
+      ],
+      "assets": [
+        {
+          "path": "demo-assets/question-17.png",
+          "break_policy": "flow"
+        }
+      ],
+      "answer": "2",
+      "solution_assets": [
+        "demo-assets/solution-17.png"
+      ],
+      "renumber": {
+        "mode": "mask",
+        "asset_index": 0,
+        "bbox": [
+          0.01,
+          0.01,
+          0.16,
+          0.16
+        ],
+        "number_font_path": "C:\\Windows\\Fonts\\malgun.ttf"
+      },
+      "solution_renumber": {
+        "mode": "source-number-absent",
+        "asset_index": 0
+      }
+    },
+    {
+      "id": "DEMO_Q018",
+      "bundle_id": "DEMO_BUNDLE",
+      "original_number": 18,
+      "stimulus_ids": [
+        "DEMO_BUNDLE_S01"
+      ],
+      "assets": [
+        {
+          "path": "demo-assets/question-18.png",
+          "break_policy": "safe-only",
+          "safe_breaks": [
+            0.62
+          ]
+        }
+      ],
+      "answer": "4",
+      "solution_assets": [
+        "demo-assets/solution-18.png"
+      ],
+      "renumber": {
+        "mode": "mask",
+        "asset_index": 0,
+        "bbox": [
+          0.01,
+          0.01,
+          0.16,
+          0.16
+        ],
+        "number_font_path": "C:\\Windows\\Fonts\\malgun.ttf"
+      },
+      "solution_renumber": {
+        "mode": "source-number-absent",
+        "asset_index": 0
+      }
+    }
+  ],
+  "selection": [
+    {
+      "question_id": "DEMO_Q017",
+      "new_number": 1
+    },
+    {
+      "question_id": "DEMO_Q018",
+      "new_number": 2
+    }
+  ]
+}

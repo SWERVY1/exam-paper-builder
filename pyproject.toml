@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exam-image-splitter"
+version = "0.5.0"
+description = "Split local exam PDFs and compose renumbered A3, A4, B4, or Korean 8-jeol problem and answer PDFs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+keywords = ["codex-skill", "exam", "pdf", "worksheet", "mock-exam"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Microsoft :: Windows",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Education",
+]
+dependencies = [
+  "Pillow>=10",
+  "pypdfium2>=4.28",
+  "reportlab>=4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/SWERVY1/exam-paper-builder"
+Repository = "https://github.com/SWERVY1/exam-paper-builder.git"
+Issues = "https://github.com/SWERVY1/exam-paper-builder/issues"
+
+[project.scripts]
+exam-split = "exam_image_splitter.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
