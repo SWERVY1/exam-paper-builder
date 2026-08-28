@@ -1,6 +1,5 @@
 # Exam Paper Builder
 
-![시험 PDF를 새 모의고사로](assets/exam-paper-builder.png)
 
 로컬에 있는 문제지·답지 PDF를 분석하고, 지문·문항·정답·해설을 서로 연결된 자산으로
 분리한 뒤, 선택한 문항만 새 번호로 다시 조판하는 Codex 스킬입니다.
