@@ -12,7 +12,6 @@ license = "MIT"
 keywords = ["codex-skill", "exam", "pdf", "worksheet", "mock-exam"]
 classifiers = [
   "Development Status :: 4 - Beta",
-  "License :: OSI Approved :: MIT License",
   "Operating System :: Microsoft :: Windows",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.10",
